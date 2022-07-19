@@ -1,14 +1,14 @@
 package integerVariable;
 
-public class Á¤¼ö¸®ÅÍ·² {
+public class ì •ìˆ˜ë¦¬í„°ëŸ´ {
 	
 	public static void main(String[] args) {
 		
-        int a = 101; 	// 10Áø¼ö
-        int b = 0146; 	// 8Áø¼ö  0À¸·Î ½ÃÀÛ
-        int c = 0x1C2B; // 16Áø¼ö  0x·Î ½ÃÀÛ
-        int d = 0b1111; // ÀÌÁø¼ö  0b·Î ½ÃÀÛ
-        long l = 123456789L; //long LÀ» ³¡¿¡ ºÙÀÓ
+        int a = 101; 	// 10ì§„ìˆ˜
+        int b = 0146; 	// 8ì§„ìˆ˜  0ìœ¼ë¡œ ì‹œì‘
+        int c = 0x1C2B; // 16ì§„ìˆ˜  0xë¡œ ì‹œì‘
+        int d = 0b1111; // ì´ì§„ìˆ˜  0bë¡œ ì‹œì‘
+        long l = 123456789L; //long Lì„ ëì— ë¶™ì„
         System.out.println(a); 
         System.out.println(b); 
         System.out.println(c); 

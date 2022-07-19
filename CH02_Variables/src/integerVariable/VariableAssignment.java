@@ -3,7 +3,7 @@ package integerVariable;
 public class VariableAssignment {
 
 	public static void main(String[] args) {
-		// º¯¼ö´Â °ªÀ» ÀçÇÒ´ç ÇÒ¼ö ÀÖ´Ù.
+		// ë³€ìˆ˜ëŠ” ê°’ì„ ì¬í• ë‹¹ í• ìˆ˜ ìˆë‹¤.
 		int dog = 8;
 		int cat = 3;
 		

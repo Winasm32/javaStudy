@@ -1,17 +1,17 @@
 package application;
 
-public class Ãâ·ÂÆ÷¸Ë {
+public class ì¶œë ¥í¬ë§· {
 
 	public static void main(String[] args) {
-		// printf("Ãâ·Â¼­½Ä(%d,%f,%c,%s)", Ãâ·Â°ª)
+		// printf("ì¶œë ¥ì„œì‹(%d,%f,%c,%s)", ì¶œë ¥ê°’)
 		int age = 25;
-		String addr = "ºÎ»ê";
+		String addr = "ë¶€ì‚°";
 		
-		System.out.printf("³» ³ªÀÌ´Â %d»ì ÀÔ´Ï´Ù.\n", age);
-		System.out.printf("³» ³ªÀÌ´Â %d»ì ÀÌ°í %s¿¡ »ì°í ÀÖ½À´Ï´Ù.\n",age, addr);
+		System.out.printf("ë‚´ ë‚˜ì´ëŠ” %dì‚´ ì…ë‹ˆë‹¤.\n", age);
+		System.out.printf("ë‚´ ë‚˜ì´ëŠ” %dì‚´ ì´ê³  %sì— ì‚´ê³  ìˆìŠµë‹ˆë‹¤.\n",age, addr);
 		
 		double pi = 3.141592;
-		System.out.printf("ÆÄÀÌÀÇ °ªÀº : %.3f", pi); //¼Ò¼öÁ¡ 3ÀÚ¸®
+		System.out.printf("íŒŒì´ì˜ ê°’ì€ : %.3f", pi); //ì†Œìˆ˜ì  3ìë¦¬
 
 	}
 }

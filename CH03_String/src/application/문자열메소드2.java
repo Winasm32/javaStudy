@@ -1,16 +1,16 @@
 package application;
 
-public class ¹®ÀÚ¿­¸Ş¼Òµå2 {
+public class ë¬¸ìì—´ë©”ì†Œë“œ2 {
 
 	public static void main(String[] args) {
-		//substring(½ÃÀÛÀÎµ¦½º¹øÈ£)
+		//substring(ì‹œì‘ì¸ë±ìŠ¤ë²ˆí˜¸)
 		String text = "apple";
 		String newText = text.substring(1);
 		System.out.println(newText);
 		newText = text.substring(1,3);
 		System.out.println(newText);
 		
-		//indexOf(¹®ÀÚ) ¹®ÀÚ¿­ÀÇ Æ¯Á¤ ¹®ÀÚÀÇ ÀÎµ¦½º ¹øÈ£ ¸®ÅÏ
+		//indexOf(ë¬¸ì) ë¬¸ìì—´ì˜ íŠ¹ì • ë¬¸ìì˜ ì¸ë±ìŠ¤ ë²ˆí˜¸ ë¦¬í„´
 		String myText = "abcdefgh";
 		System.out.println(myText.indexOf('c'));
 	}

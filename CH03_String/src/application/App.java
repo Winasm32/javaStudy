@@ -3,10 +3,10 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		//String ¹®ÀÚ¿­ Å¸ÀÔÀº ±âº»ÀÚ·áÇüÀÌ ¾Æ´Ï¶ó Å¬·¡½º Å¸ÀÔÀÌ´Ù.
+		//String ë¬¸ìì—´ íƒ€ì…ì€ ê¸°ë³¸ìë£Œí˜•ì´ ì•„ë‹ˆë¼ í´ë˜ìŠ¤ íƒ€ì…ì´ë‹¤.
 		int a = 7;
 		double h = 1.8;
-		String name = "È«±æµ¿"; 
+		String name = "í™ê¸¸ë™"; 
 		
 		System.out.println(name);
 	}

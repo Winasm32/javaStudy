@@ -1,11 +1,11 @@
 package application;
 
-public class Á¦¾î¹®ÀÚ {
+public class ì œì–´ë¬¸ì {
 
 	public static void main(String[] args) {
 		System.out.println("================================");
-		System.out.println("\tÅÇ\t¸¸Å­ ¶Ù¿ó´Ï´Ù.");
+		System.out.println("\tíƒ­\të§Œí¼ ë›°ì›ë‹ˆë‹¤.");
 		System.out.println("================================");
-		System.out.println("ÀÚ¹Ù¸¦\n¹è¿ì°í\nÀÖ½À´Ï´Ù.");
+		System.out.println("ìë°”ë¥¼\në°°ìš°ê³ \nìˆìŠµë‹ˆë‹¤.");
 	}
 }

@@ -1,8 +1,8 @@
-package ÀÚ¹Ù½ÃÀÛÇÏ±â;
+package ìë°”ì‹œì‘í•˜ê¸°;
 
 public class Profile {
 
 	public static void main(String[] args) {
-		System.out.println("½ÇÇàµÊ");
+		System.out.println("ì‹¤í–‰ë¨");
 	}
 }

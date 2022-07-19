@@ -1,6 +1,6 @@
-package ΉέΊΉΉ®;
+package λ°λ³µλ¬Έ;
 
-public class Αυ°¨Ώ¬»κΐΪ {
+public class μ¦κ°μ—°μ‚°μ {
 
 	public static void main(String[] args) {
 		

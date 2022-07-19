@@ -1,18 +1,18 @@
 package application;
 
-public class ºó¹®ÀÚ¿­ {
+public class ë¹ˆë¬¸ìì—´ {
 
 	public static void main(String[] args) {
-		// blank vs empty : °ø¹éÀ» Á¦¿ÜÇÒ·Á¸é isBlank¸¦ »ç¿ëÇÑ´Ù.
+		// blank vs empty : ê³µë°±ì„ ì œì™¸í• ë ¤ë©´ isBlankë¥¼ ì‚¬ìš©í•œë‹¤.
 		String myText = "          \n";
-		System.out.println("ºó¹®ÀÚ¿­ È®ÀÎ: " + myText.isEmpty()); //ºó¹®ÀÚ¿­¸¸ È®ÀÎ
-		System.out.println("ºó¹®ÀÚ¿­ È®ÀÎ: " +myText.isBlank()); //°ø¹é¹®ÀÚÁ¦¿ÜÇÏ°í ºó¹®ÀÚ¿­ È®ÀÎ
+		System.out.println("ë¹ˆë¬¸ìì—´ í™•ì¸: " + myText.isEmpty()); //ë¹ˆë¬¸ìì—´ë§Œ í™•ì¸
+		System.out.println("ë¹ˆë¬¸ìì—´ í™•ì¸: " +myText.isBlank()); //ê³µë°±ë¬¸ìì œì™¸í•˜ê³  ë¹ˆë¬¸ìì—´ í™•ì¸
 
-		myText = "¾ÆÄ§¹äÀ» ¸ÀÀÖ°Ô ¸Ô¾ú´Ù.";
-		System.out.println(myText.replace("¾ÆÄ§", "Àú³á"));
+		myText = "ì•„ì¹¨ë°¥ì„ ë§›ìˆê²Œ ë¨¹ì—ˆë‹¤.";
+		System.out.println(myText.replace("ì•„ì¹¨", "ì €ë…"));
 		
-		//°ø¹é Á¦°Å strip()
-		String name = "  Á¦ÀÎ ";
+		//ê³µë°± ì œê±° strip()
+		String name = "  ì œì¸ ";
 		System.out.printf("'%s'", name);
 		System.out.printf("'%s'", name.strip());
 	}

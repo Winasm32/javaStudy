@@ -1,14 +1,14 @@
 package integerVariable;
 
-public class ½Ç¼ö¸®ÅÍ·² {
+public class ì‹¤ìˆ˜ë¦¬í„°ëŸ´ {
 
 	public static void main(String[] args) {
 
-		float a = 101.230f; // ÇÃ·ÎÆ® ¸®ÅÍ·²
-		double b = 123.222; // ´õºí ¸®ÅÍ·²(f¾øÀ¸¸é ´õºí)
+		float a = 101.230f; // í”Œë¡œíŠ¸ ë¦¬í„°ëŸ´
+		double b = 123.222; // ë”ë¸” ë¦¬í„°ëŸ´(fì—†ìœ¼ë©´ ë”ë¸”)
 
-		System.out.println("ÇÃ·ÎÆ® ½Ç¼ö : " + a);
-		System.out.println("´õºí ½Ç¼ö : " + b);
+		System.out.println("í”Œë¡œíŠ¸ ì‹¤ìˆ˜ : " + a);
+		System.out.println("ë”ë¸” ì‹¤ìˆ˜ : " + b);
 
 	}
 }

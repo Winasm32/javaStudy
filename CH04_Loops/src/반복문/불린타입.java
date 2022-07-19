@@ -1,22 +1,22 @@
-package ¹İº¹¹®;
+package ë°˜ë³µë¬¸;
 
-public class ºÒ¸°Å¸ÀÔ {
+public class ë¶ˆë¦°íƒ€ì… {
 
 	public static void main(String[] args) {
-		// ºÒ¸° Å¸ÀÔÀº Âü,°ÅÁş(true, false) 
+		// ë¶ˆë¦° íƒ€ì…ì€ ì°¸,ê±°ì§“(true, false) 
 		boolean condition1 = false;		
-		System.out.println("Á¶°Ç1: " + condition1);
+		System.out.println("ì¡°ê±´1: " + condition1);
 		
-		boolean condition2 = 4 < 5;	//Âü	
-		System.out.println("Á¶°Ç2: " + condition2);
+		boolean condition2 = 4 < 5;	//ì°¸	
+		System.out.println("ì¡°ê±´2: " + condition2);
 		
-		boolean condition3 = 2 > 8; //°ÅÁş
-		System.out.println("Á¶°Ç3: " + condition3);
+		boolean condition3 = 2 > 8; //ê±°ì§“
+		System.out.println("ì¡°ê±´3: " + condition3);
 
-		// ºñ±³ == °°´Ù, != °°Áö¾Ê´Ù, >= , <= 
+		// ë¹„êµ == ê°™ë‹¤, != ê°™ì§€ì•Šë‹¤, >= , <= 
 		boolean condition4 = 9 == 10;
-		System.out.println("Á¶°Ç4: " + condition4);
-        System.out.printf("Á¶°Ç4: %b", condition4);
+		System.out.println("ì¡°ê±´4: " + condition4);
+        System.out.printf("ì¡°ê±´4: %b", condition4);
 
 	}
 }

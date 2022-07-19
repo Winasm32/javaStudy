@@ -3,9 +3,9 @@ package integerVariable;
 public class Doubles {
 
 	public static void main(String[] args) {
-		//½Ç¼ö¸¦ º¯¼ö·Î ¼±¾ğÇÏ¸é
+		//ì‹¤ìˆ˜ë¥¼ ë³€ìˆ˜ë¡œ ì„ ì–¸í•˜ë©´
 		double h = 1.8;
 		
-		System.out.println("³ôÀÌ h´Â " + h + "ÀÔ´Ï´Ù.");
+		System.out.println("ë†’ì´ hëŠ” " + h + "ì…ë‹ˆë‹¤.");
 	}
 }

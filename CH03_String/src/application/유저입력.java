@@ -2,19 +2,19 @@ package application;
 
 import java.util.Scanner;
 
-public class À¯ÀúÀÔ·Â {
+public class ìœ ì €ì…ë ¥ {
 
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("¿Âµµ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä : ");
+		System.out.print("ì˜¨ë„ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš” : ");
 		
 		double c = scanner.nextFloat();	
 		double f = (c * 9 / 5) + 32;
 
-		//System.out.println("¼·¾¾ " + c + "´Â È­¾¾ " + f + "ÀÌ´Ù.");
-		System.out.printf("¼·¾¾ %.2f ´Â È­¾¾ %.2fÀÌ´Ù.", c, f);
+		//System.out.println("ì„­ì”¨ " + c + "ëŠ” í™”ì”¨ " + f + "ì´ë‹¤.");
+		System.out.printf("ì„­ì”¨ %.2f ëŠ” í™”ì”¨ %.2fì´ë‹¤.", c, f);
 		
-		scanner.close(); //ÀÔ·Â¹Ş´Â ½ºÄ³³Ê °´Ã¼¸¦ Á¾·á
+		scanner.close(); //ì…ë ¥ë°›ëŠ” ìŠ¤ìºë„ˆ ê°ì²´ë¥¼ ì¢…ë£Œ
 	}
 }

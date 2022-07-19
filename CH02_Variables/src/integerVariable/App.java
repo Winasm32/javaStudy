@@ -3,10 +3,10 @@ package integerVariable;
 public class App {
 
 	public static void main(String[] args) {
-		// º¯¼ö ¸¸µé±â : 1. º¯¼ö ¼±¾ğ(ÀÚ·áÇü), 2.º¯¼ö ÃÊ±âÈ­
-		int x; //Á¤¼ö x ¼±¾ğ
+		// ë³€ìˆ˜ ë§Œë“¤ê¸° : 1. ë³€ìˆ˜ ì„ ì–¸(ìë£Œí˜•), 2.ë³€ìˆ˜ ì´ˆê¸°í™”
+		int x; //ì •ìˆ˜ x ì„ ì–¸
 		x = 7;
-		int y = 10; // Á¤¼ö º¯¼ö y¸¦ ¼±¾ğ°ú µ¿½Ã¿¡ ÃÊ±â°ªÀÔ·Â
+		int y = 10; // ì •ìˆ˜ ë³€ìˆ˜ yë¥¼ ì„ ì–¸ê³¼ ë™ì‹œì— ì´ˆê¸°ê°’ì…ë ¥
 		
 		System.out.println(x);
 		System.out.println(y);

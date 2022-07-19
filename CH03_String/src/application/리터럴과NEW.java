@@ -1,13 +1,13 @@
 package application;
 
-public class ¸®ÅÍ·²°úNEW {
+public class ë¦¬í„°ëŸ´ê³¼NEW {
 
 	public static void main(String[] args) {
-		//¸®ÅÍ·² ¹æ½Ä vs new Å°¿öµå
-		String new1 = new String("Çï·Î¿ì");
-		String new2 = new String("Çï·Î¿ì");
-		String literal1 = "Çï·Î¿ì";
-		String literal2 = "Çï·Î¿ì";
+		//ë¦¬í„°ëŸ´ ë°©ì‹ vs new í‚¤ì›Œë“œ
+		String new1 = new String("í—¬ë¡œìš°");
+		String new2 = new String("í—¬ë¡œìš°");
+		String literal1 = "í—¬ë¡œìš°";
+		String literal2 = "í—¬ë¡œìš°";
 		String new3 = literal1;
 		System.out.println(new1);
 		System.out.println(new2);

@@ -1,6 +1,6 @@
 package integerVariable;
 
-public class ºÒ¸°¸®ÅÍ·² {
+public class ë¶ˆë¦°ë¦¬í„°ëŸ´ {
 
 	public static void main(String[] args) {
         boolean bool1 = true;

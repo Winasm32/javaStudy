@@ -3,12 +3,12 @@ package integerVariable;
 public class Arithmetic {
 
 	public static void main(String[] args) {
-		// »ê¼ú¿¬»ê
+		// ì‚°ìˆ ì—°ì‚°
 		System.out.println(7+3);
 		System.out.println(9/3);
-		System.out.println(10/3); //Á¤¼ö/Á¤¼ö = Á¤¼ö
+		System.out.println(10/3); //ì •ìˆ˜/ì •ìˆ˜ = ì •ìˆ˜
 		System.out.println(10.0/3.0);
-		System.out.println(); //ÇÑÁÙ ¶Ù¿ò
+		System.out.println(); //í•œì¤„ ë›°ì›€
 		System.out.println(9/4.0);
 		System.out.println(3*4);
 		System.out.println(3*4.0);

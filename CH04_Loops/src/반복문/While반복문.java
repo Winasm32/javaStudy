@@ -1,13 +1,13 @@
-package ¹Ýº¹¹®;
+package ë°˜ë³µë¬¸;
 
-public class While¹Ýº¹¹® {
+public class Whileë°˜ë³µë¬¸ {
 
 	public static void main(String[] args) {
 		
 		int counter = 0;
 		
 		while(counter <= 10) {
-			System.out.printf("Ä«¿îÅÍ : %d \n", counter);
+			System.out.printf("ì¹´ìš´í„° : %d \n", counter);
 			//counter = counter + 1;
 			//counter++;
 			counter += 1;

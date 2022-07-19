@@ -1,14 +1,14 @@
-package ¹İº¹¹®;
+package ë°˜ë³µë¬¸;
 
-public class For¹İº¹¹® {
+public class Forë°˜ë³µë¬¸ {
 
 	public static void main(String[] args) {
-		// for ¹İº¹¹® for(ÃÊ±â°ª;Á¶°Ç;Áõ°¨){ ¸í·É¹®; }
+		// for ë°˜ë³µë¬¸ for(ì´ˆê¸°ê°’;ì¡°ê±´;ì¦ê°){ ëª…ë ¹ë¬¸; }
 //		for(int i=0; i < 10; i++) {
 //			System.out.println("i: " + i);
 //		}
 
-		// ¿¹Á¦. for 1¿¡¼­ 100±îÁö ÇÕÀ» Ãâ·ÂÇÏ¶ó
+		// ì˜ˆì œ. for 1ì—ì„œ 100ê¹Œì§€ í•©ì„ ì¶œë ¥í•˜ë¼
 		int sum = 0;
 		for (int i = 1; i <= 100; i++) {
 			sum = sum + i;

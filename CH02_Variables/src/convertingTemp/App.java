@@ -3,13 +3,13 @@ package convertingTemp;
 public class App {
 
 	public static void main(String[] args) {
-		// ¼·¾¾(Celsius ¼¿½Ã¿ì½º) ¡æ È­¾¾(FahrenheitÆÛ·»ÇÏÀÌÆ®) º¯È¯
-		// (0 ¡ÆC ¡¿ 9/5) + 32 = 32 ¡ÆF
+		// ì„­ì”¨(Celsius ì…€ì‹œìš°ìŠ¤) â†’ í™”ì”¨(Fahrenheití¼ë Œí•˜ì´íŠ¸) ë³€í™˜
+		// (0 Â°C Ã— 9/5) + 32 = 32 Â°F
 
 		double c = 20;
 		double f = (c * 9 / 5) + 32;
 
-		System.out.println("¼·¾¾ " + c + "´Â È­¾¾ " + f + "ÀÌ´Ù.");
+		System.out.println("ì„­ì”¨ " + c + "ëŠ” í™”ì”¨ " + f + "ì´ë‹¤.");
 
 	}
 }

@@ -1,23 +1,23 @@
-package ¹İº¹¹®;
+package ë°˜ë³µë¬¸;
 
-public class ¿¬»êÀÚÀ§Ä¡ {
+public class ì—°ì‚°ììœ„ì¹˜ {
 
 	public static void main(String[] args) {
-		// Áõ°¨¿¬»êÀÚÀÇ À§Ä¡¿¡ µû¶ó ¸ÕÀú Áõ°¨ÇÏ°í ÇÒ´ç(=), ÇÒ´ç(=)ÇÏ°í Áõ°¨
+		// ì¦ê°ì—°ì‚°ìì˜ ìœ„ì¹˜ì— ë”°ë¼ ë¨¼ì € ì¦ê°í•˜ê³  í• ë‹¹(=), í• ë‹¹(=)í•˜ê³  ì¦ê°
 		int cats = 5;
-		System.out.println(cats++); //ÇÒ´ç ¸ÕÀú ´ÙÀ½ Áõ°¨
+		System.out.println(cats++); //í• ë‹¹ ë¨¼ì € ë‹¤ìŒ ì¦ê°
 		System.out.println(cats);
 		
 		int dogs = 3;
-		System.out.println(++dogs); //¸ÕÀú Áõ°¨ ´ÙÀ½ ÇÒ´ç
+		System.out.println(++dogs); //ë¨¼ì € ì¦ê° ë‹¤ìŒ í• ë‹¹
 
-		int chickens = 10;	//°í¾çÀÌ 6, °³ 4	
-		int animals = cats + chickens++; // Ä¡Å² 10ÇÒ´ç ÈÄ 11		
+		int chickens = 10;	//ê³ ì–‘ì´ 6, ê°œ 4	
+		int animals = cats + chickens++; // ì¹˜í‚¨ 10í• ë‹¹ í›„ 11		
 		System.out.println(animals); //16
 		
 		int apples = 5;
 		int bananas = 4;		
-		int fruits = ++apples + bananas++; // »ç°ú 6 ¹Ù³ª³ª 4 ÇÒ´çÈÄ 5
+		int fruits = ++apples + bananas++; // ì‚¬ê³¼ 6 ë°”ë‚˜ë‚˜ 4 í• ë‹¹í›„ 5
 		System.out.println(fruits); //10
 
 

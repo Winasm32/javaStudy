@@ -1,10 +1,10 @@
 package integerVariable;
 
-public class ¹®ÀÚ¿­¸®ÅÍ·² {
+public class ë¬¸ìì—´ë¦¬í„°ëŸ´ {
 
 	public static void main(String[] args) {
         String s = "Hello";      
-        // ¹®ÀÚ¿­¿¡ ½Öµû¿ÈÇ¥""°¡ ¾øÀ¸¸é º¯¼ö·Î Ãë±ŞµÊ
+        // ë¬¸ìì—´ì— ìŒë”°ì˜´í‘œ""ê°€ ì—†ìœ¼ë©´ ë³€ìˆ˜ë¡œ ì·¨ê¸‰ë¨
         //String s1 = Hello; 
         System.out.println(s); 
 	}

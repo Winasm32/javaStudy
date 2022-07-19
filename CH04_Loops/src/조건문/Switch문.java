@@ -1,22 +1,22 @@
-package Á¶°Ç¹®;
+package ì¡°ê±´ë¬¸;
 
-public class Switch¹® {
+public class Switchë¬¸ {
 
 	public static void main(String[] args) {
-		// ½ºÀ§Ä¡¹®
+		// ìŠ¤ìœ„ì¹˜ë¬¸
 		int option = 17;
 		switch (option) {
 		case 0:
-			System.out.println("¿É¼Ç 0 ¼±ÅÃ");
+			System.out.println("ì˜µì…˜ 0 ì„ íƒ");
 			break;
 		case 1:
-			System.out.println("¿É¼Ç 1 ¼±ÅÃ");
+			System.out.println("ì˜µì…˜ 1 ì„ íƒ");
 			break;
 		case 10:
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á...");
+			System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ...");
 			break;
 		default:
-			System.out.println("Àß¸øµÈ ¿É¼Ç¹øÈ£.");
+			System.out.println("ì˜ëª»ëœ ì˜µì…˜ë²ˆí˜¸.");
 			break;
 		}
 

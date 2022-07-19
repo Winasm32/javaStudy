@@ -1,13 +1,13 @@
 package integerVariable;
 
-public class ¹®ÀÚ¸®ÅÍ·² {
+public class ë¬¸ìë¦¬í„°ëŸ´ {
 	
 	public static void main(String[] args) {
-        char ch = 'a'; // ÇÑ µû¿ÈÇ¥ »ç¿ë! 
-        char c = '\u0061'; // À¯´ÏÄÚµå Ç¥Çö¹ı
+        char ch = 'a'; // í•œ ë”°ì˜´í‘œ ì‚¬ìš©! 
+        char c = '\u0061'; // ìœ ë‹ˆì½”ë“œ í‘œí˜„ë²•
         System.out.println(ch);  
         System.out.println(c); 
-        // Æ¯¼ö¹®ÀÚ ¹é½½·¡½Ã(\)¸¦ »ç¿ëÇÏ¿© " Ç¥½ÃÇÔ
+        // íŠ¹ìˆ˜ë¬¸ì ë°±ìŠ¬ë˜ì‹œ(\)ë¥¼ ì‚¬ìš©í•˜ì—¬ " í‘œì‹œí•¨
         System.out.println("\"  is a symbol");
 	}
 }

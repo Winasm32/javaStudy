@@ -1,9 +1,9 @@
 package application;
 
-public class ¹®ÀÚ¿­¸Ş¼Òµå1 {
+public class ë¬¸ìì—´ë©”ì†Œë“œ1 {
 
 	public static void main(String[] args) {
-		//charAt(ÀÎµ¦½º¹øÈ£) : index¹øÈ£¿¡ ÇØ´ç ¹®ÀÚ°¡ ¸®ÅÏ
+		//charAt(ì¸ë±ìŠ¤ë²ˆí˜¸) : indexë²ˆí˜¸ì— í•´ë‹¹ ë¬¸ìê°€ ë¦¬í„´
 		String text = "ABCDE";
 		System.out.println(text.charAt(0));
 		System.out.println(text.charAt(1));
@@ -12,22 +12,22 @@ public class ¹®ÀÚ¿­¸Ş¼Òµå1 {
 		System.out.println(text.charAt(4));
 		//System.out.println(text.charAt(5));
 		
-		//¹®ÀÚ¿­ ¾ËÆÄºª¼ø ºñ±³
+		//ë¬¸ìì—´ ì•ŒíŒŒë²³ìˆœ ë¹„êµ
 		String w1 = "abcde";
 		String w2 = "abcdd";
-		// compareTo ´Â ¹®ÀÚ¿­µéÀ» ºñ±³ÇØ¼­ Å«¼ø¼­-ÀÛÀº¼ø¼­¸¦ ¼ıÀÚ·Î ¸®ÅÏ
+		// compareTo ëŠ” ë¬¸ìì—´ë“¤ì„ ë¹„êµí•´ì„œ í°ìˆœì„œ-ì‘ì€ìˆœì„œë¥¼ ìˆ«ìë¡œ ë¦¬í„´
 		System.out.println(w1.compareTo(w2));
 		
-		//contains(¹®ÀÚ¿­) ¹®ÀÚ¿­ÀÌ Æ÷ÇÔÇÏ°í ÀÖ´ÂÁö È®ÀÎ
-		text = "¿À´Ã Á¡½ÉÀº µ·±î½º´Ù.";
-		System.out.println(text.contains("µ·±î½º"));
+		//contains(ë¬¸ìì—´) ë¬¸ìì—´ì´ í¬í•¨í•˜ê³  ìˆëŠ”ì§€ í™•ì¸
+		text = "ì˜¤ëŠ˜ ì ì‹¬ì€ ëˆê¹ŒìŠ¤ë‹¤.";
+		System.out.println(text.contains("ëˆê¹ŒìŠ¤"));
 		
-		//concat ¹®ÀÚ¿­ ÇÕÄ§
+		//concat ë¬¸ìì—´ í•©ì¹¨
 		System.out.println(w1.concat(w2));
-		// StringBuilder¸¦ »ç¿ëÇØ ÇÕÄ§
+		// StringBuilderë¥¼ ì‚¬ìš©í•´ í•©ì¹¨
 		String finalString = new StringBuilder().append(w1).append(w2).toString();
 		System.out.println(finalString);
-		// String.format("",) : printf("%s",º¯¼ö)´ë½Å Ãâ·ÂÇÏÁö ¾Ê°í ¹®ÀÚ¿­ Çü½ÄÀ» ¸¸µë
+		// String.format("",) : printf("%s",ë³€ìˆ˜)ëŒ€ì‹  ì¶œë ¥í•˜ì§€ ì•Šê³  ë¬¸ìì—´ í˜•ì‹ì„ ë§Œë“¬
 		String formatString = String.format("%s %s", w1, w2);
 		System.out.println(formatString);
 		System.out.printf("%s %s", w1, w2);
