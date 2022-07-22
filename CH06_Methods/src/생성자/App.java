@@ -15,6 +15,11 @@ public class App {
 		//p3.setHeight(180.0);
 		System.out.println(p1.getName());
 		System.out.println(p1.getHeight());
+		
+		Person p4 = new Person();
+		Person p5 = new Person("울버린");
+		
+		System.out.println(p4.getName());
 
 	}
 
