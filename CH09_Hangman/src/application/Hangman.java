@@ -1,16 +1,19 @@
 package application;
 
+import java.util.Scanner;
+
 /*
  * 전체 행맨 게임을 실행하는 클래스
  */
 public class Hangman {
 	
-	private boolean running = false;
+	private boolean running = true;
 	private RandomWord word = new RandomWord();
+	private Scanner scanner = new Scanner(System.in);
 	
 	public void run() {
 		do {
-			displayWord();      //화면에 단어표시
+			displayWord();      //화면에 단어표시(완료)
 			getUserInput();	    //입력받음
 			checkUserInput();	//맞는지 체크 => 맞을시 running=false			
 		} while (running);
@@ -21,14 +24,22 @@ public class Hangman {
 	}
 	
 	public void getUserInput() {
-		System.out.println("단어 맞추기");
+		System.out.print("한 문자 입력 : ");
+		String guess = scanner.nextLine(); //유저가 입력한 문자열 받음
+		// 문자열에서 빼낸 한 문자를 랜덤워드 메서드 addGuess에 입력
+		word.addGuess(guess.charAt(0));
 	}
 	
 	public void checkUserInput() {
-		System.out.println("체크");
+		if(word.isComplete()) {
+			System.out.println("잘 맞췄어요!");
+			System.out.println("정답은 : " + word.toString());
+			running = false; //반복문 종료
+		}
 	}
-
-
-
+	
+	public void close() {
+		scanner.close(); //게임 종료시 스캐너 닫기
+	}
 
 }

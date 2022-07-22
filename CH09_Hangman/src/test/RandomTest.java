@@ -16,7 +16,7 @@ public class RandomTest {
 		
 		String[] words = {"펭수","고양이","라이언","늑대","소"};
 		for(int i=0; i < 100; i++) {
-			int randomIndex = random.nextInt(30); //0~4까지 랜덤
+			int randomIndex = random.nextInt(5); //0~4까지 랜덤
 			System.out.println(words[randomIndex]);
 		}
 		
