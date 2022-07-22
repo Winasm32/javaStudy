@@ -24,7 +24,7 @@ class Hero {
 
 	// 메소드(인스턴스 메소드)
 	public void punch(Hero enemy) {
-		int damage = (int)(Math.random()*10)+1; //1~10사이 랜덤 데미지
+		int damage = (int) (Math.random() * 10) + 1; // 1~10사이 랜덤 데미지
 		enemy.hp -= damage;
 	}
 
@@ -32,10 +32,10 @@ class Hero {
 	public static void battle(Hero a, Hero b) {
 		/* 2. 해당 메소드를 완성하시오. */
 		boolean firstAttack = true;
-		while((a.hp>0)&&(b.hp>0)) {
-			if(firstAttack) {	
+		while ((a.hp > 0) && (b.hp > 0)) {
+			if (firstAttack) {
 				a.punch(b);
-				System.out.printf("[%s]의 펀치%n", a.name);			
+				System.out.printf("[%s]의 펀치%n", a.name);
 				System.out.printf("%s: %d/30%n", b.name, b.hp);
 			} else {
 				b.punch(a);
