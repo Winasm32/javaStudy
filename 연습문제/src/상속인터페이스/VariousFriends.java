@@ -18,7 +18,7 @@ public class VariousFriends {
 
 /* 1. 해당 인터페이스를 완성하시오. */
 interface Friend {
-	public abstract void dearFriend();
+	void dearFriend();
 }
 
 /* 2. 아래 모든 클래스를 완성하시오. */
